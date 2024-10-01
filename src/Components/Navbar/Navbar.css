@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 80px;
+}
+
+#my-logo-home {
+    height: 150px;
+    width: auto;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    gap: 80px;
+    color:rgb(138, 99, 248)
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(267deg, rgb(38, 45, 177), rgb(149, 45, 235));
+    transition: 0.5s;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
