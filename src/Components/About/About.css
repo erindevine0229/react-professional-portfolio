@@ -1,0 +1,92 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 60px 180px;
+}
+
+.about-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+    position: relative; /* Ensure it is positioned above the image */
+    z-index: 1; /* Bring the h1 above the image */
+}
+
+.about-header img {
+    position: absolute;
+    bottom: 0; /* Keep the image at the bottom */
+    z-index: 0; /* Set the image below the h1 */
+    height: 100px;
+    width: 1300px;
+    border-radius: 50px;
+    border: 5px solid rgb(168, 130, 233)
+}
+
+.about-section {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+
+.about-pg {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 23px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 0px 0px;
+}
+
+.skills-list li {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.skills-list li:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#skill-a {
+    color: rgb(43, 64, 226);
+}
+
+#skill-b {
+    color:rgb(100, 76, 216)
+}
+
+#skill-c {
+    color:rgb(168, 130, 233)
+}
+
+#skill-d {
+    color:rgb(180, 43, 226)
+}
+
