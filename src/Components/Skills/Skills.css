@@ -1,0 +1,30 @@
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech h1 {
+    text-align: center;
+    margin: 25px;
+    font-size: 45px;
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0; 
+    margin: 0px 180px;
+}
+
+.tech-list li {
+    text-decoration: none;
+    list-style: none;
+    width: calc(20% - 20px);
+    margin: 15px 10px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(150, 155, 245);
+}

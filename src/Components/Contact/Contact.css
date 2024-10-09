@@ -1,0 +1,7 @@
+.contact-details img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: none;
+    filter: brightness(0) invert(1);
+}
