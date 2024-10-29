@@ -17,14 +17,14 @@
     padding: 0px 30px;
     font-size: 60px;
     font-weight: 600;
-    position: relative; /* Ensure it is positioned above the image */
-    z-index: 1; /* Bring the h1 above the image */
+    position: relative; 
+    z-index: 1; 
 }
 
 .about-header img {
     position: absolute;
-    bottom: 0; /* Keep the image at the bottom */
-    z-index: 0; /* Set the image below the h1 */
+    bottom: 0; 
+    z-index: 0;
     height: 100px;
     width: 1300px;
     border-radius: 50px;
@@ -53,6 +53,7 @@
     display: flex;
     flex-direction: row;
     gap: 125px;
+    text-align: center;
     text-decoration: none;
     justify-content: center;
     list-style: none;
@@ -61,7 +62,7 @@
     margin-right: 150px;
     background-color: white;
     border-radius: 50px;
-    padding: 0px 0px;
+    padding: 0px 30px;
 }
 
 .skills-list li {

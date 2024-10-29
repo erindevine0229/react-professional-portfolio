@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+
+}
+
+.footer-right img {
+    height: 100px;
+    width: 100px;
+}
+
+.footer-left p {
+    font-size: 20px;
+}

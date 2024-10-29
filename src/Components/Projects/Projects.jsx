@@ -4,7 +4,7 @@ import myProjectsData from '../../assets/myProjects';
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <div id='projects' className='projects'>
       <div className='project-title'>
         <h1>Click below to see some of my latest projects:</h1>
       </div>

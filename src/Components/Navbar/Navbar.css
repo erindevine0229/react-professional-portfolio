@@ -8,6 +8,7 @@
 #my-logo-home {
     height: 150px;
     width: auto;
+    border-radius: 50px;
 }
 
 .nav-menu {
@@ -30,4 +31,14 @@
 
 .nav-connect:hover {
     transform: scale(1.05);
+}
+
+.underlined {
+    text-decoration: underline;
+    color: rgb(180, 155, 234);
+}
+
+.nav-link-anchor {
+    text-decoration: none;
+    color: inherit;
 }
