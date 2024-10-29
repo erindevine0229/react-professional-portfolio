@@ -69,3 +69,8 @@
 .hero-resume:hover {
     border-color: rgb(162, 75, 233);
 }
+
+#resume-link-anchor {
+    text-decoration: none;
+    color: inherit;
+}
