@@ -11,9 +11,16 @@ const Projects = () => {
       <div className='projects-container'>
         {myProjectsData.map((project, index) => (
           <article key={index} className='project'>
-            <a href={project.link} target='_blank' rel='noopener noreferrer'></a>
-            <h2>{project.name}</h2>
-            <img src={project.image} alt={`Example image of ${project.name}`} />
+            <h2>{project.name}</h2> 
+            <a href={project.link} target='_blank' rel='noopener noreferrer'>
+              <img src={project.image} alt={`Example image of ${project.name}`} />
+              <div className='project-overlay'>
+                <div className='project-description'>
+                  <p>{project.description}</p>
+                  <p id='proj-tech'>Technologies used: <br></br>{project.technologies.join(', ')}</p>
+                </div>
+              </div>
+            </a>
           </article>
         ))}
       </div>
