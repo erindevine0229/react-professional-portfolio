@@ -57,6 +57,7 @@
     background-color: rgb(98, 68, 204); 
     opacity: 0; 
     transition: opacity 0.3s ease; 
+    overflow: hidden;
 }
 
 .project:hover .project-overlay {
@@ -98,4 +99,40 @@
 .show-more a:hover {
     background-color: rgb(150, 155, 245);
     border: 5px solid rgb(121, 56, 164);
+}
+
+
+@media (max-width: 768px) {
+    .projects {
+        margin: 40px 20px; 
+        gap: 50px; 
+    }
+
+    .project-title h1 {
+        font-size: 30px; 
+        padding: 0; 
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr 1fr; 
+        padding: 30px; 
+    }
+
+    .projects-container img {
+        width: 100%; 
+        height: auto;
+    }
+
+    .project-description {
+        font-size: 18px; 
+    }
+
+    .show-more a {
+        font-size: 20px; 
+        padding: 8px 12px; 
+    }
+
+    .project-description {
+        font-size: 13px;
+    }
 }

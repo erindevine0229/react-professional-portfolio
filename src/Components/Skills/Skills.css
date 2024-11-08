@@ -28,3 +28,29 @@
     font-size: 25px;
     color: rgb(150, 155, 245);
 }
+
+@media (max-width: 768px) {
+    .tech-container {
+        margin: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .tech h1 {
+        font-size: 30px; /* Reduce font size for the header */
+        margin: 15px; /* Adjust margin */
+    }
+
+    .tech-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .tech-list li {
+        width: calc(30% - 20px);
+        font-size: 20px; 
+        margin: 10px;
+}
+}
